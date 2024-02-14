@@ -16,7 +16,7 @@ public class BMIController {
     /**
      * Simply selects the home view to render by returning its name.
      */
-    @RequestMapping(value = "/jutf", method = RequestMethod.GET)
+    @RequestMapping(value = "/bmi", method = RequestMethod.GET)
     public String input(Locale locale, Model model) {
         System.out.println("Home Page Requested, locale = " + locale);
         return "input";

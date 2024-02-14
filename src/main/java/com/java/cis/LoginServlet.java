@@ -3,7 +3,6 @@ package com.java.cis;// LoginServlet.java
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.IOException;
-
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -14,7 +13,7 @@ public class LoginServlet extends HttpServlet {
         if (username.equals("yourusername") && password.equals("yourpassword")) {
             HttpSession session = request.getSession();
             session.setAttribute("username", username);
-            response.sendRedirect("home.html");
+            response.sendRedirect("home.jsp");
         } else {
             response.sendRedirect("login.html");
         }

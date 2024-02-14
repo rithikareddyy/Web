@@ -1,9 +1,10 @@
+
+
 package com.java.cis;// LogoutServlet.java
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.IOException;
-
 public class LogoutServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
