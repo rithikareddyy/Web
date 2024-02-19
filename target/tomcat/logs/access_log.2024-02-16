@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [16/Feb/2024:14:48:08 -0600] "GET /javax-servlets HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [16/Feb/2024:14:48:09 -0600] "GET /javax-servlets/ HTTP/1.1" 200 509 http-bio-8080-exec-3 355
+0:0:0:0:0:0:0:1 - - [16/Feb/2024:14:48:10 -0600] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [16/Feb/2024:14:48:13 -0600] "POST /javax-servlets/LogoutServlet HTTP/1.1" 302 - http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [16/Feb/2024:14:48:13 -0600] "GET /javax-servlets/login.html HTTP/1.1" 404 949 http-bio-8080-exec-6 17
+0:0:0:0:0:0:0:1 - - [16/Feb/2024:14:50:27 -0600] "GET /bmirest HTTP/1.1" 404 - http-bio-8080-exec-9 0

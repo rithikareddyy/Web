@@ -1,6 +1,7 @@
 package com.java.cis;
 
 import java.text.DateFormat;
+import java.text.DecimalFormat;
 import java.util.Date;
 import java.util.Locale;
 import org.springframework.stereotype.Controller;
@@ -16,7 +17,7 @@ public class BMIController {
     /**
      * Simply selects the home view to render by returning its name.
      */
-    @RequestMapping(value = "/bmi", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String input(Locale locale, Model model) {
         System.out.println("Home Page Requested, locale = " + locale);
         return "input";
@@ -26,7 +27,11 @@ public class BMIController {
                          @RequestParam("weight") double weightInPounds,
                          Model model) {
         double bmi = weightInPounds / (heightInInches * heightInInches) * 703;
-        model.addAttribute("bmi", bmi);
+        DecimalFormat df = new DecimalFormat("#.##");
+        df.setRoundingMode(java.math.RoundingMode.HALF_UP);
+        String formattedBMI = df.format(bmi);
+        double roundedBMI = Double.parseDouble(formattedBMI);
+        model.addAttribute("bmi", roundedBMI);
         return "result";
     }
 }

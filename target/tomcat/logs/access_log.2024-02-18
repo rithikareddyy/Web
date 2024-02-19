@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:05:15 -0600] "GET /javax-servlets HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:05:17 -0600] "GET /javax-servlets/ HTTP/1.1" 200 391 http-bio-8080-exec-4 1501
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:05:17 -0600] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:05:25 -0600] "POST /javax-servlets/bmi HTTP/1.1" 200 177 http-bio-8080-exec-7 245
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:06:33 -0600] "GET /javax-servlets HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:06:33 -0600] "GET /javax-servlets/ HTTP/1.1" 200 391 http-bio-8080-exec-3 227
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:06:40 -0600] "POST /javax-servlets/bmi HTTP/1.1" 200 177 http-bio-8080-exec-5 108
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:21:08:12 -0600] "POST /javax-servlets/bmi HTTP/1.1" 200 174 http-bio-8080-exec-10 13

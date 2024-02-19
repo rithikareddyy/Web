@@ -10,3 +10,5 @@
 0:0:0:0:0:0:0:1 - - [14/Feb/2024:17:41:20 -0600] "GET /javax-servlets/ HTTP/1.1" 404 949 http-bio-8080-exec-9 11
 0:0:0:0:0:0:0:1 - - [14/Feb/2024:17:42:09 -0600] "GET /javax-servlets HTTP/1.1" 302 - http-bio-8080-exec-2 0
 0:0:0:0:0:0:0:1 - - [14/Feb/2024:17:42:11 -0600] "GET /javax-servlets/ HTTP/1.1" 200 509 http-bio-8080-exec-3 1697
+0:0:0:0:0:0:0:1 - - [14/Feb/2024:17:44:19 -0600] "GET /javax-servlets HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2024:17:44:19 -0600] "GET /javax-servlets/ HTTP/1.1" 200 509 http-bio-8080-exec-3 315
